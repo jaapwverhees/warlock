@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad84866-b2a5-4c5e-9454-a4e672071df6" name="Default Changelist" comment="" />
+    <list default="true" id="4ad84866-b2a5-4c5e-9454-a4e672071df6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e604TzT3msPmpeAKWMv9TN6q89" />
   <component name="ProjectViewState">
@@ -17,7 +22,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decisions" />
     <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\Documents\Paradox Interactive\Crusader Kings II\mod\warlock_society\decisions" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,6 +43,7 @@
       <workItem from="1593626546081" duration="934000" />
       <workItem from="1593627508312" duration="6534000" />
       <workItem from="1593701430701" duration="24692000" />
+      <workItem from="1593878264196" duration="819000" />
     </task>
     <servers />
   </component>
@@ -59,9 +71,9 @@
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
     <state x="380" y="235" key="editAsTableFormatDialogDimension/0.0.1600.1160@0.0.1600.1160" timestamp="1593702080856" />
-    <state x="924" y="140" width="585" height="888" key="find.popup" timestamp="1593805522497">
+    <state x="924" y="140" width="585" height="888" key="find.popup" timestamp="1593878893307">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
-    <state x="924" y="140" width="585" height="888" key="find.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1593805522497" />
+    <state x="924" y="140" width="585" height="888" key="find.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1593878893307" />
   </component>
 </project>

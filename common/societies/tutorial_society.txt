@@ -55,6 +55,7 @@ tutorial_society = { #society code name
 		}
 		decisions = { #rank based decisions power
 			tutorial_society_power_1 #this one has a decision
+			hermetics_write_theory_paper
 			
 			passive_power_tooltip #this one is just a tooltip
 			#Passive powers are not real decision powers. They are to mark if X events have special interactions with people of that society and rank.
@@ -70,7 +71,8 @@ tutorial_society = { #society code name
 			tech_growth_modifier = 25
 		}
 		decisions = {
-
+            hermetics_perform_scrying # Enables you to perform a scrying and gain an omen
+            brew_happiness_potion # Enables you to brew a potion
 		}
 	}
 	
@@ -83,6 +85,7 @@ tutorial_society = { #society code name
 			tech_growth_modifier = 50
 		}
 		decisions = {
+		    hermetics_make_horoscope # Enables you to "predict" your children's future
 		}
 	}
 
@@ -97,6 +100,8 @@ tutorial_society = { #society code name
 		}
 		decisions = {
 		tutorial_society_power_2
+		choose_hermetic_art # Enables you to pick/change your lifestyle trait
+        hermetics_write_magnum_opus # Write an enciphered book of lore (artifact)
 		}
 	}
 	
