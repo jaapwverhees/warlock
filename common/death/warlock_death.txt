@@ -1,0 +1,16 @@
+death_sacrificed_warlock = {
+	violent = yes
+	long_desc = "DEATH_SACRIFICED_WARLOCK"
+	can_nokiller = yes
+	sound_list = {
+		female = {
+			"generic_sacrifice_female_01"
+			"generic_sacrifice_female_02"
+		}
+		male = {
+			"generic_sacrifice_male_01"
+			"generic_sacrifice_male_02"
+
+		}
+	}
+}

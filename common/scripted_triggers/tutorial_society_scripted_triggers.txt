@@ -1,0 +1,13 @@
+is_tutorial_society_trigger = { #trigger for members, useful if you have several similar society who all share events so you do not have to make trigger for all of them.
+	custom_tooltip = {
+		text = IS_tutorial_society_TRIGGER
+		OR = {
+			society_member_of = tutorial_society
+			# society_member_of = tutorial_society_example
+			# society_member_of = tutorial_society_another_one
+		}
+	}
+} 
+
+#call it using this:
+#	is_tutorial_society_trigger = yes 

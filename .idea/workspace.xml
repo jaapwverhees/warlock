@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ad84866-b2a5-4c5e-9454-a4e672071df6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1e604TzT3msPmpeAKWMv9TN6q89" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ad84866-b2a5-4c5e-9454-a4e672071df6" name="Default Changelist" comment="" />
+      <created>1593626543541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593626543541</updated>
+      <workItem from="1593626546081" duration="934000" />
+      <workItem from="1593627508312" duration="6534000" />
+      <workItem from="1593701430701" duration="24692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593626625950">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="482" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.1160@0.0.1600.1160" timestamp="1593626625950" />
+    <state x="301" y="225" key="SettingsEditor" timestamp="1593702036325">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="301" y="225" key="SettingsEditor/0.0.1600.1160@0.0.1600.1160" timestamp="1593702036325" />
+    <state x="92" y="92" width="1416" height="976" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593627274494">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="92" y="92" width="1416" height="976" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1593627274494" />
+    <state x="92" y="92" width="1416" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593702260367">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="92" y="92" width="1416" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1593702260367" />
+    <state x="380" y="235" key="editAsTableFormatDialogDimension" timestamp="1593702080856">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="380" y="235" key="editAsTableFormatDialogDimension/0.0.1600.1160@0.0.1600.1160" timestamp="1593702080856" />
+    <state x="924" y="140" width="585" height="888" key="find.popup" timestamp="1593805522497">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="924" y="140" width="585" height="888" key="find.popup/0.0.1600.1160@0.0.1600.1160" timestamp="1593805522497" />
+  </component>
+</project>

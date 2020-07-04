@@ -1,0 +1,88 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Make sure that this file in encoded in ANSI;;;;;;;;;;;;;;
+#The society name;;;;;;;;;;;;;;
+tutorial_society;The Warlock Society;;;;;;;;;;;;;x
+string_tutorial_society;tutorial_society;;;;;;;;;;;;;x
+#The society description;;;;;;;;;;;;;;
+tutorial_society_desc;Warlocks have always been there, in the shadows. Their power is great, but comes with secrecy and great sacrifice...;;;;;;;;;;;;;x
+#Leader description;;;;;;;;;;;;;;
+tutorial_society_leader_desc;The Arch-mage leads Our Order.;;;;;;;;;;;;;x
+#Name of the ranks;;;;;;;;;;;;;;
+tutorial_society_rank_1_female;Novice;;;;;;;;;;;;;x
+tutorial_society_rank_2_female;Apprentice;;;;;;;;;;;;;x
+tutorial_society_rank_3_female;Mage;;;;;;;;;;;;;x
+tutorial_society_rank_4_female;Arch-mage;;;;;;;;;;;;;x
+tutorial_society_rank_1_male;Novice;;;;;;;;;;;;;x
+tutorial_society_rank_2_male;Apprentice;;;;;;;;;;;;;x
+tutorial_society_rank_3_male;Mage;;;;;;;;;;;;;x
+tutorial_society_rank_4_male;Arch-Mage;;;;;;;;;;;;;x
+#Name of the currency;;;;;;;;;;;;;;
+tutorial_society_currency;Magicka;;;;;;;;;;;;;x
+#Rank up button name;;;;;;;;;;;;;;
+request_to_rank_up_within_tutorial_society;Request to rank up.;;;;;;;;;;;;;x
+#For tooltip that require being a member;;;;;;;;;;;;;;
+IS_tutorial_society_TRIGGER;Is a member of the Warlock Society.;;;;;;;;;;;;;x
+#Rank up decision if you made a custom one, alongside the required custom_local;;;;;;;;;;;;;;
+request_to_rank_up_within_tutorial_society;Request a Promotion.;;;;;;;;;;;;;x
+request_to_rank_up_within_tutorial_society_tt;Has �Y[Root.Society.GetCurrency]�! greater or equal to [Root.GetSocietyRankUpTooltip1];;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank1;�Y[Root.Society.GetCurrency]�!;;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank2;�Y[Root.Society.GetCurrency]�!;;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank3;�Y[Root.Society.GetCurrency]�!;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;
+#Name of the decision;;;;;;;;;;;;;;
+tutorial_society_power_1;Trade Tutorial Points for gold!;;;;;;;;;;;;;x
+#Tooltip of the decision;;;;;;;;;;;;;;
+tutorial_society_power_1_desc;Trade Tutorial Points for gold, the description.;;;;;;;;;;;;;x
+#Tooltip of the decision in the society menu;;;;;;;;;;;;;;
+tutorial_society_power_1_power_desc;Trade Tutorial Points for gold, the power description.;;;;;;;;;;;;;x
+#The name of the passive power;;;;;;;;;;;;;;
+passive_power_tooltip;Passive Power;;;;;;;;;;;;;x
+#The description of the passive power;;;;;;;;;;;;;;
+passive_power_tooltip_power_desc;Passive powers are not real decision powers. They are to mark if X events have special interactions with people of that society and rank.;;;;;;;;;;;;;x
+tutorial_society_power_2;Gain Immortality;;;;;;;;;;;;;
+tutorial_society_power_2_desc;Gain Immortality;;;;;;;;;x # �G mean green;;;;
+tutorial_society_power_2_power_desc;Gain Immortality;;;;;;;;;;;;;
+tutorial_society_power_3;Lose Immortality;;;;;;;;;;;;;
+tutorial_society_power_3_desc;Lose Immortality;;;;;;;;;;;;;x
+tutorial_society_power_3_power_desc;Lose Immortality;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x #the _stacked is for when there is several modifiers added to each others, so make them plural.
+#The localization for the currency gain;;;;;;;;;;;;;;x
+society_gain_tier_duke_tooltip;Is a Duke: �G+3.0�!;;;;;;;;;;;;;
+society_gain_tier_catholic_tooltip;Is Catholic: �R-3.0�!;;;;;;;;;;;;;
+#;;;;;;;;;;;;;;x
+#Modifiers;;;;;;;;;;;;;;x
+tutorial_successful_mission;One Successful Mission;;;;;;;;;;;;;x
+tutorial_failed_mission;One Failed Mission;;;;;;;;;;;;;
+tutorial_successful_mission_stacked;Many Successful Missions;;;;;;;;;;;;;
+tutorial_failed_mission_stacked;Many Failed Missions;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#This event is for joining;;;;;;;;;;;;;;
+EVTDESC_TUTOSOCI_102;You want to join my glorious society?;;;;;;;;;;;;;
+EVTOPTA_TUTOSOCI_102;Yes sir.;;;;;;;;;;;;;x
+EVTOPTB_TUTOSOCI_102;I'm not so sure anymore.;;;;;;;;;;;;;
+#;;;;;;;;;;;;;;x
+#This event is for rank up;;;;;;;;;;;;;;x
+EVTDESC_TUTOSOCI_122;Greetings [Root.GetSocietyRank] [Root.GetFirstName],\nYou can rank up. [Root.Society.GetName].\n\nSigned,\n[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;;;;x
+EVTOPTA_EVTDESC_TUTOSOCI_122_122;Great.;;;;;;;;;;;;;
+#;;;;;;;;;;;;;;
+#Name for a quest;;;;;;;;;;;;;;x
+quest_tutorial_quest_1;Press the button;;;;;;;;;;;;;
+#Name for a quest if there is no quest target;;;;;;;;;;;;;;
+quest_tutorial_quest_1_fallback;Press the button;;;;;;;;;;;;;x
+quest_tutorial_quest_1_desc;Press the button and gain gold!;;;;;;;;;;;;;x
+quest_tutorial_quest_1_tooltip;Press the button in the intrige menu.;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;
+#Start Quest event;;;;;;;;;;;;;;
+EVTDESC_TUTOSOCI_141;You want a quest?;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#End Quest event;;;;;;;;;;;;;;x
+EVTDESC_TUTOSOCI_142;You want to complete or fail the quest?;;;;;;;;;;;;;
+EVTOPTA_TUTOSOCI_142;Complete it.;;;;;;;;;;;;;
+EVTOPTB_TUTOSOCI_142;Fail it..;;;;;;;;;;;;;
+#;;;;;;;;;;;;;;
+#End Quest event;;;;;;;;;;;;;;
+EVTDESC_TUTOSOCI_150;Here be the event text.;;;;;;;;;;;;;
+EVTOPTA_TUTOSOCI_150;Choice 1.;;;;;;;;;;;;;
+EVTOPTB_TUTOSOCI_150;Choice 2..;;;;;;;;;;;;;
+#nicknames;;;;;;;;;;;;;;
+nick_blood_mage;Blood Mage;;;;;;;;;;;;;

@@ -1,0 +1,7 @@
+#Influence stuff
+tutorial_successful_mission = {
+	society_influence = 1
+}
+tutorial_failed_mission = {
+	society_influence = -1
+}
