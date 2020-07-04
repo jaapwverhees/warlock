@@ -56,6 +56,8 @@ tutorial_society = { #society code name
 		decisions = { #rank based decisions power
 			tutorial_society_power_1 #this one has a decision
 			hermetics_write_theory_paper
+			assassins_drug_effect
+			decision_abduct_warlock
 			
 			passive_power_tooltip #this one is just a tooltip
 			#Passive powers are not real decision powers. They are to mark if X events have special interactions with people of that society and rank.

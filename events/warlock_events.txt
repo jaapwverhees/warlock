@@ -385,5 +385,43 @@ character_event = {
 		clr_character_flag = fire_eater
 		clr_character_flag = non_kosher
 		clr_character_flag = dont_even_exist
-	}	
+	}
+}
+
+character_event = {
+	id = WLE.20081
+	picture = GFX_evt_bandits
+	border = GFX_event_normal_frame_intrigue
+
+	is_triggered_only = yes
+
+	desc = {
+		text = EVTDESC_MNM_20081
+		trigger = {
+			FROMFROMFROM = {
+				age = 14
+			}
+		}
+	}
+
+	desc = {
+		text = EVTDESC_MNM_20081_CHILD
+		picture = GFX_evt_child_play
+		trigger = {
+			FROMFROMFROM = {
+				NOT = { age = 14 }
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_MNM_20081
+		ai_chance = {
+			factor = 100
+		}
+		increase_visibility_effect = yes
+		FROM = {
+			character_event = { id = MNM.20082 days = 3 tooltip = EVTTOOLTIP_MNM_20081 }
+		}
+	}
 }

@@ -182,3 +182,61 @@ society_decisions = { #only available to members of a society
         }
 
     }
+targeted_decisions = {
+
+    decision_abduct_warlock = {
+        filter = all
+        ai_target_filter = realm
+
+        only_playable = yes
+        ai = no
+
+        from_potential = {
+        	society_member_of = tutorial_society
+        }
+
+        potential = {
+        	ai = yes
+        }
+
+        allow = {
+        	is_within_diplo_range = FROM
+        }
+
+        effect = {
+        	detract_society_currency_medium_effect = yes
+        	hidden_tooltip = {
+        	FROM = {
+        		any_opinion_modifier_target = {
+        			limit = {
+        				reverse_has_opinion_modifier = {
+        				who = PREV
+        				modifier = opinion_abducting
+        					}
+        			}
+        			reverse_remove_opinion = {
+        				who = PREV
+        				modifier = opinion_abducting
+        			}
+        		}
+        		opinion = {
+        			who = ROOT
+        			modifier = opinion_abducting
+        			months = 12000
+        		}
+        		character_event = { id = WLE.20081 days = 1 }
+        		}
+        	}
+        }
+
+        revoke_allowed = {
+        	always = no
+        }
+
+        ai_will_do = {
+        	factor = 0 		# 1 = 100% chance every month (for each allowed target!)
+        }
+    }
+}
+
+
